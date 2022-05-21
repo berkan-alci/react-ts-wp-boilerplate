@@ -13,21 +13,23 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@babel/plugin-transform-runtime": "^7.18.0",
         "react": "^18.1.0",
         "react-dom": "^18.1.0"
     },
     "devDependencies": {
         "@babel/core": "^7.18.0",
+        "@babel/plugin-transform-runtime": "^7.18.0",
         "@babel/preset-env": "^7.18.0",
         "@babel/preset-react": "^7.17.12",
         "@babel/preset-typescript": "^7.17.12",
+        "@babel/runtime": "^7.18.0",
         "@pmmmwh/react-refresh-webpack-plugin": "^0.5.6",
         "@types/react": "^18.0.9",
         "@types/react-dom": "^18.0.4",
         "@typescript-eslint/eslint-plugin": "^5.25.0",
         "@typescript-eslint/parser": "^5.25.0",
         "babel-loader": "^8.2.5",
+        "copy-webpack-plugin": "^11.0.0",
         "css-loader": "^6.7.1",
         "eslint": "^8.16.0",
         "eslint-config-prettier": "^8.5.0",
@@ -39,8 +41,6 @@
         "eslint-plugin-react-hooks": "^4.5.0",
         "eslint-plugin-react-redux": "^4.0.0",
         "html-webpack-plugin": "^5.5.0",
-        "husky": "^8.0.1",
-        "lint-staged": "^12.4.1",
         "prettier": "^2.6.2",
         "react-refresh": "^0.13.0",
         "style-loader": "^3.3.1",
@@ -48,18 +48,5 @@
         "webpack": "^5.72.1",
         "webpack-cli": "^4.9.2",
         "webpack-dev-server": "^4.9.0"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "src/**/*.{js,jsx,ts,tsx,json,css}": [
-            "prettier --write",
-            "eslint --fix src/",
-            "tslint --fix --project .",
-            "git add"
-        ]
     }
 }
