@@ -39,7 +39,6 @@ This will check for formatting errors when running the script. It'll auto format
 
 ## Contributions:
 
-Main contributor: Berkan Alci
-Website: www.berkanalci.com
+Main contributor: Berkan Alci | Website: www.berkanalci.com
 
 If you want to contribute to this boilerplate, feel free to fork the project & create a PR.
