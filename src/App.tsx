@@ -1,7 +1,7 @@
 import './styles.css';
 
 const App = () => {
-    const name = "test";
+    const name = "tesst";
     return (
         <div>React Typescript starter template - {process.env.NODE_ENV} - { name }</div>
     );
