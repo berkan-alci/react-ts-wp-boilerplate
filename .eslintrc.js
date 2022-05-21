@@ -9,7 +9,7 @@ module.exports = {
             version: 'detect',
         },
     },
-    extends: [
+    extends: [ //add or remove plugins
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
         'plugin:@typescript-eslint/recommended',
@@ -19,7 +19,7 @@ module.exports = {
         'plugin:import/typescript',
         'plugin:jsx-a11y/recommended',
         'plugin:eslint-comments/recommended',
-        'prettier/@typescript-eslint',
+        'prettier',
         'plugin:prettier/recommended',
     ],
     rules: { //add or remove rules
