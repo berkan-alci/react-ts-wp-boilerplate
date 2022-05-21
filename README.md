@@ -20,6 +20,7 @@ This boilerplate includes:
  - [ ] Husky integration
  - [ ] Public folder addition
  - [ ] SEO optimization
+ - [ ] Proper capturing of Frontend logs (LogRocket)
  - [ ] Example files for project
  - [ ] Dockerfile for optimized docker image
 
